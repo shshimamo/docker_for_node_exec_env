@@ -50,5 +50,10 @@ module.exports = {
     */
     extend (config, ctx) {
     }
+  },
+  watchers: {
+    webpack: {
+      poll: true
+    }
   }
 }
