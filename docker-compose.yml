@@ -6,7 +6,6 @@ services:
     build: .
     ports:
     - "3000:3000"
-    init: true
     volumes:
     - ./app:/app
     - /app/node_modules
